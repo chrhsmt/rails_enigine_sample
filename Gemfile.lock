@@ -66,7 +66,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    mysql (2.9.1)
+    mysql2 (0.3.20)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     pry (0.10.3)
@@ -140,7 +140,7 @@ PLATFORMS
 DEPENDENCIES
   engine!
   factory_girl_rails (~> 4.2.1)
-  mysql
+  mysql2 (~> 0.3.20)
   pry
   pry-byebug
   rspec-rails
